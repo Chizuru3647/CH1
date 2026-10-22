@@ -1,0 +1,17 @@
+{
+  "name": "千鶴の約束簿",
+  "short_name": "千鶴記帳",
+  "description": "以水原千鶴為主題的精緻陪伴型記帳工具",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#FAF8F6",
+  "theme_color": "#FF6B8B",
+  "icons": [
+    {
+      "src": "./images/avatar_mizuhara.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ]
+}

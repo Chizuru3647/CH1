@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <title>千鶴の約束簿 - 雙面女友的理財管家</title>
+  <meta name="description" content="以水原千鶴（一之瀨千鶴）為主題的精緻日系記帳陪伴工具">
+  
+  <!-- Tailwind CSS CDN -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  
+  <!-- Custom Stylesheet -->
+  <link rel="stylesheet" href="./css/style.css?v=2">
+  
+  <!-- PWA & Mobile Web App Settings -->
+  <link rel="manifest" href="./manifest.json">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="default">
+  <meta name="apple-mobile-web-app-title" content="千鶴記帳">
+  <meta name="theme-color" content="#FF6B8B">
+  <link rel="apple-touch-icon" href="./images/avatar_mizuhara.png">
+  <link rel="icon" type="image/png" href="./images/avatar_mizuhara.png">
+  <style>
+    @keyframes slideUp {
+      from { transform: translateY(100%); opacity: 0; }
+      to { transform: translateY(0); opacity: 1; }
+    }
+    @keyframes fadeIn {
+      from { opacity: 0; }
+      to { opacity: 1; }
+    }
+    .animate-slide-up {
+      animation: slideUp 0.22s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+    }
+    .animate-fade-in {
+      animation: fadeIn 0.18s ease-out forwards;
+    }
+  </style>
+</head>
+<body class="bg-[#F5F2EE] min-h-screen text-slate-800 antialiased selection:bg-pink-100 selection:text-pink-600">
+
+  <!-- Root Container -->
+  <div id="app"></div>
+
+  <!-- Core App Logic -->
+  <script src="./js/app.js?v=2"></script>
+</body>
+</html>
